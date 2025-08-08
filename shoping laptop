@@ -1,0 +1,137 @@
+
+
+
+import java.util.Scanner;
+public class Main
+
+{
+    public static void hp(){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("name:hp");
+        System.out.println("procsser:i5");
+        System.out.println("Ram:8gp");
+        System.out.println("ssd:525");
+        System.out.println("amount:5000");
+        
+        System.out.println("1 purches: 2 exit");
+        int ad=scan.nextInt();
+        if(ad==1){
+             int aa=5000;
+             double s=aa%0.52;
+              System.out.println("GST : "+ s);
+        
+            System.out.println("pay Your Amount");
+             System.out.println("Total amount  :"+(aa+s));
+             double f=aa+s;
+             
+              double aaa=scan.nextDouble();
+                 
+         
+            if(f==aaa){
+            
+            System.out.println("done purches");
+            }
+           
+        else{
+             System.out.println("thanks for visiting");
+        }
+    }
+    }
+         public static void dell(){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("name:dell");
+        System.out.println("procsser:i5");
+        System.out.println("Ram:8gp");
+        System.out.println("ssd:525");
+        System.out.println("amount:7000");
+        
+        System.out.println("1 purches: 2 exit");
+        int adc=scan.nextInt();
+        if(adc==1){
+            
+            int aa=7000;
+             double s=aa%0.52;
+              System.out.println("GST : "+ s);
+        
+            System.out.println("pay Your Amount");
+             System.out.println("Total amount  :"+(aa+s));
+             double f=aa+s;
+             
+              double aaa=scan.nextDouble();
+                 
+         
+            if(f==aaa){
+            
+            System.out.println("done purches");
+            }
+           
+        
+        else{
+             System.out.println("thanks for visiting");
+        }
+         }
+         }
+         public static void asus(){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("name:asus");
+        System.out.println("procsser:i5");
+        System.out.println("Ram:8gp");
+        System.out.println("ssd:525");
+        System.out.println("amount:8000");
+        
+        System.out.println("1 purches: 2 exit");
+        int adcd=scan.nextInt();
+        if(adcd==1){
+             int aa=8000;
+             double s=aa%0.52;
+              System.out.println("GST : "+ s);
+        
+            System.out.println("pay Your Amount");
+             System.out.println("Total amount  :"+(aa+s));
+             double f=aa+s;
+             
+              double aaa=scan.nextDouble();
+                 
+         
+            if(f==aaa){
+            
+            System.out.println("done purches");
+            }
+           
+          
+        
+        else{
+             System.out.println("thanks for visiting");
+        
+         }
+         }
+         }
+	public static void main(String[] args) {
+	    Scanner scan=new Scanner(System.in);
+		System.out.println("1 hp: 2 dell: 3 asus:");
+		int a=scan.nextInt();
+		switch(a){
+		    case 1:{
+		        hp();
+		      break;
+		    }
+		    case 2:{
+		            dell();
+		            break;
+		    }
+		     case 3:{
+		            asus();
+		            break;
+		     }
+		      default:{
+		       System.out.print("miss maching");
+		                  }
+		            }
+		        }
+		    
+	
+	}
+		
+		
+		
+	
