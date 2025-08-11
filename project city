@@ -1,0 +1,111 @@
+
+import java.util.Scanner;
+
+class karaikudi{
+    int a=1234;
+    String name ="karaikudi";
+    
+
+}
+class chennai{
+    int a=123;
+    String name ="chennai";
+    
+    
+}
+class kerala{
+    int a=12;
+    String name ="kerala";
+    
+    
+}
+public class sample{
+    int a=12345;
+    char c='n';
+    String s="pudukkottai";
+    String s1="kkdi";
+   
+    public static void area(sample t , karaikudi t1, chennai t2,kerala t3){
+       
+         Scanner scan=new Scanner(System.in);
+         System.out.println("karaikudi 1: chennai 2: kerala 3: pudukkotai 4:");
+         int a1=scan.nextInt();
+         if (a1==1){
+        System.out.print("enter the pass word:");
+        int aa1=scan.nextInt();
+        if(aa1==t1.a){
+        System.out.print("verificetion yes its you press 1: no press 2:");
+         int a2=scan.nextInt();
+         if(a2==1){
+        System.out.println(t1.name);
+         }
+         else{
+             System.out.print("exit");
+         }
+            
+        }
+        else{
+            System.out.println("miss maching");
+        }
+         }
+         else if (a1==2){
+             
+        System.out.print("enter the pass word:");
+        int aa1=scan.nextInt();
+        System.out.print("verificetion yes its you press 1: no press 2:");
+        int a3=scan.nextInt();
+        
+        if(a3==1){
+            
+        System.out.println(t2.name);}
+        else{
+            System.out.println("miss maching");
+        }
+         }
+          else if (a1==3){
+        System.out.print("enter the pass word:");
+        int aa1=scan.nextInt();
+        System.out.print("verificetion yes its you press 1: no press 2:");
+        int a4=scan.nextInt();
+        
+        if(a4==1){
+        System.out.println(t3.name);}
+        else{
+            System.out.println("miss maching");
+        }
+         }
+         else if (a1==4){
+        System.out.print("enter the pass word:");
+        int aa1=scan.nextInt();
+        System.out.print("verificetion yes its you press 1: no press 2:");
+        int a5=scan.nextInt();
+        
+        if(aa1==1){
+        System.out.println(t.s);}
+        else{
+            System.out.println("miss maching");
+        }
+         }
+        else{
+            System.out.println("miss maching");
+        }
+        
+    }
+	public static void main(String[] args) {
+	    Scanner scan=new Scanner(System.in);
+	    
+	  
+	  
+	   sample s2=new sample();
+	   karaikudi k=new karaikudi();
+	    chennai c=new chennai();
+	    kerala g=new kerala();
+	    area(s2,k,c,g);
+	
+	
+	
+	
+	
+	}
+}
+
